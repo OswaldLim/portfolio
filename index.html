@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oswald Lim — Developer</title>
+    <meta name="description" content="Personal portfolio of Oswald Lim — CS student, builder, and problem solver.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">OSWALD</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="theme-toggle" aria-label="Toggle dark mode">
+                <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">Hey, I'm</p>
+            <h1 class="hero-name">Oswald Lim</h1>
+            <p class="hero-tagline">Computer Science student who builds things that solve real problems.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="mailto:oswaldlim26@gmail.com" class="btn btn-secondary">Get In Touch</a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://github.com/oswaldlim" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+                <a href="https://linkedin.com/in/oswaldlim" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+                <a href="mailto:oswaldlim26@gmail.com" aria-label="Email">Email</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm an undergraduate Computer Science student based in Malaysia with a passion for building clean, efficient solutions. I prefer simple systems over clever ones — if it works and it's maintainable, it's good enough.</p>
+                    <p>My interests span software engineering, automation, and developer tooling. I enjoy turning messy problems into straightforward code.</p>
+                    <p>When I'm not coding, I'm probably working out, reading, or tinkering with side projects.</p>
+                </div>
+                <div class="about-meta">
+                    <div class="meta-item"><span class="meta-label">Location</span><span>Kuala Lumpur, Malaysia</span></div>
+                    <div class="meta-item"><span class="meta-label">Education</span><span>BSc Computer Science</span></div>
+                    <div class="meta-item"><span class="meta-label">Status</span><span>Open to opportunities</span></div>
+                    <div class="meta-item"><span class="meta-label">Languages</span><span>English, Mandarin, Malay</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">A selection of things I've built or contributed to.</p>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Project Alpha</h3>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener" aria-label="Live Demo">Live</a>
+                            <a href="#" target="_blank" rel="noopener" aria-label="Source Code">Code</a>
+                        </div>
+                    </div>
+                    <p class="project-desc">A brief description of what this project does and who it's for. Mention the problem it solves.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>FastAPI</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">DevTools CLI</h3>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener" aria-label="Live Demo">Live</a>
+                            <a href="#" target="_blank" rel="noopener" aria-label="Source Code">Code</a>
+                        </div>
+                    </div>
+                    <p class="project-desc">A command-line toolkit that automates common development workflows. Built for speed and extensibility.</p>
+                    <div class="project-tags">
+                        <span>Rust</span>
+                        <span>CLI</span>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Smart Scheduler</h3>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener" aria-label="Live Demo">Live</a>
+                            <a href="#" target="_blank" rel="noopener" aria-label="Source Code">Code</a>
+                        </div>
+                    </div>
+                    <p class="project-desc">An automated scheduling tool that integrates with calendar APIs and detects conflicts intelligently.</p>
+                    <div class="project-tags">
+                        <span>TypeScript</span>
+                        <span>Node.js</span>
+                        <span>Notion API</span>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Data Dashboard</h3>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener" aria-label="Live Demo">Live</a>
+                            <a href="#" target="_blank" rel="noopener" aria-label="Source Code">Code</a>
+                        </div>
+                    </div>
+                    <p class="project-desc">A minimal real-time dashboard for visualizing personal metrics and habits over time.</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>D3.js</span>
+                        <span>Firebase</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <p class="section-subtitle">Tools and technologies I work with regularly.</p>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript / TypeScript</li>
+                        <li>Rust</li>
+                        <li>SQL</li>
+                        <li>HTML / CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks</h3>
+                    <ul>
+                        <li>FastAPI</li>
+                        <li>Express.js</li>
+                        <li>React</li>
+                        <li>Next.js</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <ul>
+                        <li>Git / GitHub</li>
+                        <li>Docker</li>
+                        <li>Linux</li>
+                        <li>Vercel / Netlify</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Other</h3>
+                    <ul>
+                        <li>REST API Design</li>
+                        <li>Notion / Composio</li>
+                        <li>CI/CD</li>
+                        <li>Figma (basic)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Whether you want to collaborate, ask something, or just say hi — I'm always open to connecting.</p>
+            <div class="contact-links">
+                <a href="mailto:oswaldlim26@gmail.com" class="contact-item">
+                    <span class="contact-icon">✉</span>
+                    <span>oswaldlim26@gmail.com</span>
+                </a>
+                <a href="https://github.com/oswaldlim" target="_blank" rel="noopener" class="contact-item">
+                    <span class="contact-icon">⟠</span>
+                    <span>github.com/oswaldlim</span>
+                </a>
+                <a href="https://linkedin.com/in/oswaldlim" target="_blank" rel="noopener" class="contact-item">
+                    <span class="contact-icon">in</span>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Oswald Lim. Built with care and minimal dependencies.</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
